@@ -23,7 +23,7 @@ const App = () => {
         {/* Landing Page */}
         <Route
           path={import.meta.env.BASE_URL}
-          element={<main className="overflow-hidden">
+          element={<main className="overflow-hidden select-none" onContextMenu={(e) => e.preventDefault()}>
             <Header/>
             <Hero/>
             <Features/>

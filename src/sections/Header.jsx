@@ -36,10 +36,10 @@ const Header = () => {
   return (
     <header className={clsx(
         "fixed top-0 left-0 z-50 w-full py-10 transition-all duration-500 max-lg:py-4",
-        hasScrolled && "py-2 backdrop-blur-[8px] max-lg:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white-500 to-black"
+        hasScrolled && "py-2 backdrop-blur-[8px] max-lg:bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white-500 to-black"
         )}>
         <div className="container flex h-14 items-center max-lg:px-5">
-            <a href="/" className="lg:hidden flex-1 cursor-pointer z-2 mt-12">
+            <a href="/" className={`lg:hidden ${hasScrolled ? '' : 'rounded-xl bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-white-500 to-black'} flex-1 cursor-pointer z-2 mt-12`}>
                 <img src={`${import.meta.env.BASE_URL}/images/trial_not_visible.png`} alt="logo" width={115} height={55} />
             </a>
 
