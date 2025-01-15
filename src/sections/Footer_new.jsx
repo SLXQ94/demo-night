@@ -9,7 +9,7 @@ const Footer_new = () => {
         <div className="flex flex-col items-start">
           <a href="/">
             <img
-              src={`${import.meta.env.BASE_URL}/images/trial_visible.png`}
+              src={`${import.meta.env.BASE_URL}/images/trial_not_visible.png`}
               width={150}
               height={46}
             />
@@ -57,25 +57,26 @@ const Footer_new = () => {
 
       <p className="mt-8">
         
-      TrialVest is not a registered broker-dealer, lender, law firm, and/or money transfer service and does not conduct any activity 
-      that would require such registration. TrialVest does not provide any kind of legal consultation or legal services. please read 
-      this document carefully before you access or use the service. by accessing, registering at the site, and or using TrialVest services 
-      you agree to be bound by the terms and conditions set forth below. if you do not wish to be bound by these terms and conditions, 
-      please do not access or register for our site and/or engage in any activity conducted by TrialVest. if you violate any of these terms 
-      of service (which include by reference TrialVest's privacy policy), or otherwise violate an agreement between you and us, TrialVest 
-      may, apart from initiating any legal proceedings, terminate your privileges, delete your profile and any content or information that 
-      you have posted on the site and/or prohibit you from using or accessing the service or the site (or any portion, aspect or feature 
-      of the service or the site), at any time in its sole discretion, with or without notice. It is stated that 'TrialVest' and 'LLP (created 
-      for Special Purpose Vehicle)' are two separate legal entities. The Investors will become limited Partners to the said LLP. LLP provides 
-      case management services to its clients. The Investors are requested to read the Risk Disclosure &amp; Consent Agreement, LLP Agreement 
-      and Non-Disclosure Agreement thoroughly before making the investment in the listed Opportunities.
+      TrialVest is not a registered broker-dealer, lender, law firm, 
+      or money transfer service and does not provide legal consultation 
+      or services. By accessing or using TrialVest’s services, you agree 
+      to be bound by the terms and conditions below. If you do not agree, 
+      do not use the site or services. TrialVest reserves the right to 
+      terminate your access, delete your profile, and remove content at 
+      its sole discretion if you breach these terms or any agreements 
+      with TrialVest.'TrialVest' and 'LLP (Special Purpose Vehicle)' are 
+      separate entities. Investors will become limited partners in the 
+      LLP, which provides case management services. Investors must read 
+      and understand the Risk Disclosure & Consent Agreement, LLP 
+      Agreement, and Non-Disclosure Agreement before making any investments.
+
           
         </p>
 
       <div className="flex justify-between text-white-400 mt-8 max-sm:flex-col max-sm:items-center">
         <div className="flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer">
 
-          <p> © 2024 by TrialVest</p>
+          <p> © 2025 by VKG Asset Private Limited</p>
         </div>
       </div>
     </footer>

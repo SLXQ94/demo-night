@@ -53,7 +53,7 @@ const Contact = () => {
     }
 
   return (
-    <section className="c-space my-20 mb-100" id="contact">
+    <section className="c-space my-20 mb-100" id="contact, +91 81785 07328">
         <div className="relative min-h-screen flex items-center justify-center flex-col">
             <img
                 src={`${import.meta.env.BASE_URL}/images/terminal.png`}

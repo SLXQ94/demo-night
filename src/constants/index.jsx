@@ -2,9 +2,9 @@ export const features = [
     {
       id: '0',
       icon: `${import.meta.env.BASE_URL}/images/cash-on-delivery.png`,
-      caption: 'No Win, No Fee',
-      title: 'Turning unpaid invoices into paid ones, at no cost to you',
-      text: "Managing unpaid invoices & recovery cases can be a daunting challenge for businesses, often straining cash flow and consuming valuable time. That’s where we come in. Our expert team specializes in helping businesses recover their outstanding dues quickly and efficiently, ensuring you get what’s rightfully yours without any added costs or stress.",
+      caption: 'Get payment at no initial cost',
+      title: 'Turning Unpaid Invoices into Paid Ones',
+      text: "Late payments can cripple the growth of MSMEs, but legal action is often delayed due to cost concerns. At TrialVest, we specialize in recovering defaulted invoices and payments for MSMEs. With our expertise, we ensure you get what you’re owed without the burden of upfront costs. Let us take on the fight so your business can focus on growing.",
       button: {
         icon: `${import.meta.env.BASE_URL}/images/magictouch.svg`,
         title: 'Apply for Funding',
@@ -13,12 +13,23 @@ export const features = [
     {
       id: '1',
       icon: `${import.meta.env.BASE_URL}/images/cash-flow.png`,
-      caption: 'Increase Cash Flow',
-      title: 'Improve your Cash Flow by paying absolutely nothing towards legal expenses',
-      text: 'Litigation can be very expensive and time-consuming. It can drain you cash flow and limit your ability to invest in growth opportunities. Litigation Finance can help you free up cash flow by providing upfront capital for your legal disputes. This way, you can use your cash for more productive purposes, such as expanding your market share, launching new products, and acquiring new customers.',
+      caption: 'we help you in difficult times',
+      title: 'Recover Your Claims with Insolvency and Bankruptcy Support',
+      text: 'When businesses face insolvency or bankruptcy, navigating legal processes can be overwhelming and expensive. TrialVest steps in to assist with cases that hold merit. We ensure that your claims are handled professionally, helping you recover dues while minimizing your financial risks. Protect your interests without the burden of initial legal costs.',
       button: {
         icon: `${import.meta.env.BASE_URL}/images/docs.svg`,
         title: 'Know more',
+      },
+    },
+    {
+      id: '2',
+      icon: `${import.meta.env.BASE_URL}/images/cash-on-delivery.png`,
+      caption: 'We fight together, win together',
+      title: 'Resolve Business Disputes Without Upfront Costs',
+      text: "From lending and borrowing disagreements to broader business disputes, unresolved conflicts can stall progress. TrialVest identifies cases with strong merit and ensures they are resolved efficiently. We’re here to make justice accessible—at no initial cost to you. Trust us to take care of the legal hassle so you can focus on what matters most: your business.",
+      button: {
+        icon: `${import.meta.env.BASE_URL}/images/magictouch.svg`,
+        title: 'Apply for Funding',
       },
     },
   ];
@@ -51,73 +62,67 @@ export const features = [
       id: '0',
       question: 'What does TrialVest do?',
       answer:
-        "TrialVest is India’s largest legal financing player that provides an easier and faster way to finance legal expenses through its proprietary technology. As of now, TrialVest has provided financing to more than 50 businesses translating to a total of USD ~195 million claims under management.",
+        "TrialVest is India’s first emerging legal financing player, offering a faster and easier way to finance legal expenses through its proprietary technology. We primarily focus on MSME disputes and conflicts, as this segment remains underserved. Additionally, we aim to expand into commercial disputes, providing tailored financial solutions to help litigants and investors navigate the complex legal landscape.",
     },
     {
       id: '1',
       question: 'What kind of financing does TrialVest provide?',
       answer:
-        'TrialVest provides two kinds of financing:1) Litigation Financing: We fund commercial disputes and help businesses alleviate the costs and risks of fighting disputes in exchange for a pre-decided cut from the potential recovery. This is non-recourse funding, implying that TrialVest only gets a cut in case the litigation wins the case. 2) Embedded Financing: We allow businesses to spread their legal and professional expenses across a pre-agreed timeframe for no extra cost. This is basically done by giving a virtual line of credit, allowing businesses to draw down funds when needed.',
+        "TrialVest specializes in litigation financing for MSMEs, particularly focusing on helping businesses recover funds from defaulted invoices and other disputes quickly. We provide non-recourse financing, meaning if the case is unsuccessful, the litigant doesn't have to repay the funds. In addition to MSME disputes, we are expanding our focus to cover insolvency-related costs and commercial disputes. Our goal is to offer fast, accessible, and efficient financing solutions to help businesses navigate legal challenges and recover their dues.",
     },
     {
       id: '2',
       question: 'Who can approach TrialVest for legal financing?',
       answer:
-        "Anyone and everyone can approach TrialVest to finance their legal expenses. However, the decision to fund and the amount to fund is up to the discretion of TrialVest's extensive due diligence process.",
+        "Anyone can approach TrialVest to finance their legal expenses. Whether you're an MSME facing disputes or an individual dealing with other legal challenges, we are here to help. However, the decision to fund and the amount to be financed is based on TrialVest's extensive due diligence process, ensuring that only the most viable cases are supported.",
     },
     {
       id: '3',
       question: 'How much does it cost to get started with TrialVest?',
       answer:
-        'There is no cost to get started with TrialVest. TrialVest provides its services completely free of charge.',
+        'There are no upfront legal fees to get started with TrialVest. We aim to make legal financing accessible with almost zero initial costs. The only charges you may incur are nominal government filing fees. There are no upfront lawyer fees, as we cover the legal expenses, allowing you to focus on your case without financial burden.',
     },
     {
       id: '4',
-      question: 'Does TrialVest support companies that work outside India?',
-      answer:
-        'Absolutely, yes. We provide financing to all types of companies irrespective of their domicile. Do not hesitate to reach out to us in case of any further questions.',
-    },
-    {
-      id: '5',
       question: 'Why should I take financing from TrialVest?',
       answer:
-        'Disputes are inevitable for any business, no matter how big or small. Why to put in your time, effort, and money in chasing disputes, when you can let TrialVest take care of it with no additional burden.',
+        'Disputes are a part of every business, large or small. Instead of tying up your resources in handling legal battles, let TrialVest manage it for you. With no upfront fees and non-recourse financing, we cover the legal costs so you can keep your focus on growing your business without the added stress of funding legal expenses.',
     },
   ];
   
   export const plans = [
     {
       id: '0',
-      title: 'Resource Drain',
+      title: 'Time Lost Chasing Lawyers',
       priceMonthly: 19,
       priceYearly: 12,
-      caption: 'Resource Drain',
+      caption: 'Time Lost Chasing Lawyers',
       features: [
-        'Managing litigation can divert valuable resources and attention away from core business activities, affecting overall productivity and growth.',
+        'Managing legal cases often means spending hours searching for the right lawyer, coordinating meetings, and constantly following up. This drains valuable time and energy that could be better spent on growing your business. TrialVest simplifies the process by handling it all for you, saving your resources and giving you peace of mind.',
       ],
       icon: `${import.meta.env.BASE_URL}/images/circle.svg`,
       logo: `${import.meta.env.BASE_URL}/images/database.png`,
     },
     {
       id: '1',
-      title: 'Financial Risk',
+      title: 'Avoid Losing Money on Legal Fees',
       priceMonthly: 79,
       priceYearly: 59,
-      caption: 'Financial Risk',
+      caption: 'Avoid Losing Money on Legal Fees',
       features: [
-        'Litigation is expensive and unpredictable. Businesses face the risk of losing money on legal fees without any guarantee of winning the case.',
+        'Taking legal action often involves significant upfront costs with no guarantee of success. Many businesses hesitate due to the risk of losing money on legal fees. With TrialVest, you can pursue justice without worrying about initial expenses. We only succeed when you do, minimizing your financial risk.',
       ],
       icon: `${import.meta.env.BASE_URL}/images/triangle.svg`,
       logo: `${import.meta.env.BASE_URL}/images/histogram.png`,
     },
     {
       id: '2',
-      title: 'Cash Flow Constraints',
+      title: 'Delays Impacting Your Operations ',
       priceMonthly: 39,
       priceYearly: 29,
-      caption: 'Cash Flow Constraints',
+      caption: 'Delays Impacting Your Operations ',
       features: [
-        'Businesses often struggle with maintaining cash flow due to unpaid invoices or the high costs of litigation.',
+        'Unpaid dues and unresolved disputes create cash flow problems, affecting your ability to pay suppliers, employees, and other operational expenses. TrialVest helps you recover your money quickly and efficiently, ensuring your business stays on track and avoids financial bottlenecks.',
       ],
       icon: `${import.meta.env.BASE_URL}/images/hexagon.svg`,
       logo: `${import.meta.env.BASE_URL}/images/graph.png`,
@@ -435,7 +440,7 @@ export const features = [
         title: "Company",
         links: [
             { name: "About us", link: "/" },
-            { name: "Investors", link: "/" },
+            // { name: "Investors", link: "/" },
             { name: "Contact-us", link: "#contact" },
             { name: "Blogs", link: "/" },
         ],
@@ -443,10 +448,10 @@ export const features = [
     {
         title: "Resources - TrialVest",
         links: [
-            { name: "Privacy Policy", link: "/" },
+            { name: "Privacy Policy", link: `${import.meta.env.BASE_URL}/privacy-policy` },
             { name: "FAQs", link: "#faq" },
-            { name: "Terms & Conditions", link: "/" },
-            { name: "Grievance Redressal", link: "/" },
+            { name: "Terms & Conditions", link: `${import.meta.env.BASE_URL}/terms-and-conditions` },
+            //{ name: "Grievance Redressal", link: "/" },
         ],
     },
     {

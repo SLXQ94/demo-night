@@ -19,19 +19,12 @@ const FourthSuperQuality = () => {
         <h2 className="font-palanquin text-4xl font-bold lg:max-w-lg">
            Pay us Only if you 
           {/* <span className="text-p3"> Transferring</span><br /> */}
-          <span className="text-p3"> win your Litigations</span>. In case you lose,
-          pay us nothing
+          <span className="text-p3"> win your Litigation</span>. If you lose,
+          you owe us nothing
         </h2>
 
         <p className="mt-4 body-1 mb-10 max-w-md">
-        Litigations can be unpredictable and risky. You may face 
-        unexpected delays, setbacks, or losses. You may also face 
-        adverse costs orders if you lose the case or fail to beat 
-        an offer. Litigation Finance can help you eliminate downside 
-        risk by providing non-recourse funding. This means that if 
-        you lose the case or fail to recover anything, you owe nothing 
-        to the funder. This way, you can pursue your claims with 
-        confidence and peace of mind.
+        Imagine being able to fight your legal battles without worrying about losing money if the outcome doesn’t favor you. With Trial Vest’s Litigation Finance, you eliminate the downside risk through non-recourse funding. This means that if you lose the case or fail to recover anything, you owe us absolutely nothing. It’s a risk-free way to pursue your claims, giving you the confidence and peace of mind to focus on what truly matters—achieving justice and securing your rightful dues.
         </p>
 
         {/* <p className="mt-6 body-1 mb-10 max-w-md">
@@ -47,11 +40,11 @@ const FourthSuperQuality = () => {
 
       <div className="flex-1 flex justify-center items-start">
         <img
-          src={`${import.meta.env.BASE_URL}/images/legalpay_2.png`}
-          alt="shoe8"
+          src={`${import.meta.env.BASE_URL}/images/workflow.jpg`}
+          alt="dashboard"
           width={570}
           height={522}
-          className="object-contain"
+          className="rounded-xl h-[400px] w-[700px]"
         />
       </div>
     </section>

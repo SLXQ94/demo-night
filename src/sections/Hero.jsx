@@ -16,7 +16,7 @@ const Hero = () => {
                     </h1>
 
                     <p className="max-w-440 mb-14 body-1 max-md:mb-10">
-                        One Stop Solution for all your legal financing needs.
+                        
                         Payments you deserve, recover them now!
                     </p>
 
@@ -25,7 +25,7 @@ const Hero = () => {
                     </LinkScroll>
                 </div>
 
-                <div className="absolute -top-32 max-md:left-[calc(50%-150px)] left-[calc(50%-200px)] w-[1230px] pointer-events-none hero-img_res">
+                <div className="absolute -top-32 max-lg:left-[calc(50%-150px)] left-[calc(50%-200px)] w-[1230px] pointer-events-none hero-img_res">
                     <img
                         src={`${import.meta.env.BASE_URL}/images/hero-image.png`}
                         className="size-[1000px] max-lg:h-auto"

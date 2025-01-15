@@ -6,7 +6,7 @@ import CountUp from "react-countup"
 const Features = () => {
   return (
     <section>
-        <Element name="features">
+        <Element name="services">
             <div className="container">
                 <div className="relative flex md:flex-wrap flex-nowrap border-2 border-s3 rounded-7xl md:overflow-hidden max-md:flex-col feature-after md:g7 max-md:border-none max-md:rounded-none max-md:gap-3">
                     {features.map(({id, icon, caption, title, text, button}) => (
@@ -40,7 +40,7 @@ const Features = () => {
                         </div>
                     ))}
 
-                    <ul className="relative flex justify-around flex-grow px-[5%] border-2 border-s3 rounded-7xl max-md:hidden">
+                    {/* <ul className="relative flex justify-around flex-grow px-[5%] border-2 border-s3 rounded-7xl max-md:hidden">
                         <div className="absolute bg-s3/20 top-[38%] left-0 right-0 w-full h-[1px] z-10"/>
 
                         {details.map(({id, icon, title}) => (
@@ -56,7 +56,7 @@ const Features = () => {
                                         alt={title}
                                         className="size-17/20 object-contain z-20"
                                     /> */}
-                                    <div className="h3 flex items-start text-p4">
+                                    {/* <div className="h3 flex items-start text-p4">
         
                                         {id === '0' ? '₹ ' : ''}
                                         <CountUp
@@ -75,8 +75,8 @@ const Features = () => {
                                     {title}
                                 </h3>
                             </li>
-                        ))}
-                    </ul>
+                        ))} */}
+                    {/* /</ul>  */}
                 </div>
             </div>
         </Element>

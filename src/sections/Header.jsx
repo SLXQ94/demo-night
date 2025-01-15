@@ -36,11 +36,11 @@ const Header = () => {
   return (
     <header className={clsx(
         "fixed top-0 left-0 z-50 w-full py-10 transition-all duration-500 max-lg:py-4",
-        hasScrolled && "py-2 bg-black-100 backdrop-blur-[8px]"
+        hasScrolled && "py-2 backdrop-blur-[8px] max-lg:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white-500 to-black"
         )}>
         <div className="container flex h-14 items-center max-lg:px-5">
             <a href="/" className="lg:hidden flex-1 cursor-pointer z-2 mt-12">
-                <img src={`${import.meta.env.BASE_URL}/images/trial_visible.png`} alt="logo" width={115} height={55} />
+                <img src={`${import.meta.env.BASE_URL}/images/trial_not_visible.png`} alt="logo" width={115} height={55} />
             </a>
 
             <div className={
@@ -50,7 +50,7 @@ const Header = () => {
                     <nav className="max-lg:relative max-lg:z-2 max-lg:my-auto">
                         <ul className="flex max-lg:block max-lg:px-12">
                             <li className="nav-li">
-                                <NavLink title="features"/>
+                                <NavLink title="services"/>
                                 {/* <div className="dot"/> */}
                                 <NavLink title="about"/>
                             </li>
@@ -61,17 +61,17 @@ const Header = () => {
                                     offset={-250}
                                     spy
                                     smooth
-                                    className={clsx("max-lg:hidden transition-transform duration-500 cursor-pointer")}
+                                    className={clsx("max-lg:hidden mt-4 transition-transform duration-500 cursor-pointer")}
                                 >
                                     {/* {`/images/trial${hasScrolled ? '_not' : ''}_visible.png`} */}
-                                    <img src={`${import.meta.env.BASE_URL}/images/trial_visible.png`} alt="logo" width={160} height={55} />
+                                    <img src={`${import.meta.env.BASE_URL}/images/trial_not_visible.png`} alt="logo" width={160} height={55} />
                                 </LinkScroll>
                             </li>
 
                             <li className="nav-li">
                                 <NavLink title="faq"/>
                                 {/* <div className="dot"/> */}
-                                <NavLink title="contact"/>
+                                <NavLink title="contact, +91 81785 07328"/>
                             </li>
                         </ul>
                     </nav>
