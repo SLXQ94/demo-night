@@ -18,7 +18,7 @@ import Videos from "./sections/Videos";
 
 const App = () => {
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+    <Router>
       <Routes>
         {/* Landing Page */}
         <Route
