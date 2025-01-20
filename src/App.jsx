@@ -1,6 +1,6 @@
 import Contact from "./sections/Contact";
 import Download from "./sections/Download";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Faq from "./sections/Faq";
 import Features from "./sections/Features";
 import Footer_new from "./sections/Footer_new";
@@ -22,7 +22,7 @@ const App = () => {
       <Routes>
         {/* Landing Page */}
         <Route
-          path={import.meta.env.BASE_URL}
+          path="/"
           element={<main className="overflow-hidden select-none" onContextMenu={(e) => e.preventDefault()}>
             <Header/>
             <Hero/>
@@ -58,7 +58,7 @@ const App = () => {
 
         {/* Privacy Policy Page */}
         <Route
-          path={`${import.meta.env.BASE_URL}/privacy-policy`}
+          path={`/privacy-policy`}
           element={
             <PrivacyPolicy/>
           }
@@ -66,7 +66,7 @@ const App = () => {
 
         {/* Terms and Conditions Page */}
         <Route
-          path={`${import.meta.env.BASE_URL}/terms-and-conditions`}
+          path={`/terms-and-conditions`}
           element={
             <TermsConditions/>
           }
